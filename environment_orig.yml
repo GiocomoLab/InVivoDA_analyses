@@ -3,11 +3,11 @@ channels:
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
-  - argon2-cffi=20.1.0=py37h27cfd23_1
+  - argon2-cffi=20.1.0=py37h7b6447c_1
   - async_generator=1.10=py37h28b3542_0
   - attrs=20.3.0=pyhd3eb1b0_0
   - backcall=0.2.0=pyhd3eb1b0_0
-  - blas=1.0=openblas
+  - blas=1.0=mkl
   - bleach=3.3.0=pyhd3eb1b0_0
   - ca-certificates=2021.1.19=h06a4308_0
   - certifi=2020.12.5=py37h06a4308_0
@@ -16,13 +16,14 @@ dependencies:
   - dbus=1.13.18=hb2f20db_0
   - decorator=4.4.2=pyhd3eb1b0_0
   - defusedxml=0.6.0=pyhd3eb1b0_0
-  - dill=0.3.3=pyhd3eb1b0_0
   - expat=2.2.10=he6710b0_2
   - fontconfig=2.13.1=h6c09931_0
   - freetype=2.10.4=h5ab3b9f_0
   - glib=2.66.1=h92f7085_0
   - gst-plugins-base=1.14.0=h8213a91_2
   - gstreamer=1.14.0=h28cd5cc_2
+  - h5py=2.10.0=py37hd6299e0_1
+  - hdf5=1.10.6=hb1b8bf9_0
   - icu=58.2=he6710b0_3
   - importlib_metadata=2.0.0=1
   - intel-openmp=2019.4=243
@@ -47,7 +48,6 @@ dependencies:
   - libgcc-ng=9.1.0=hdf63c60_0
   - libgfortran-ng=7.3.0=hdf63c60_0
   - libllvm10=10.0.1=hbcb73fb_5
-  - libopenblas=0.3.10=h5a2b251_0
   - libpng=1.6.37=hbc83047_0
   - libsodium=1.0.18=h7b6447c_0
   - libstdcxx-ng=9.1.0=hdf63c60_0
@@ -62,12 +62,14 @@ dependencies:
   - matplotlib-base=3.3.2=py37h817c723_0
   - mistune=0.8.4=py37h14c3975_1001
   - mkl=2019.3=199
+  - mkl_fft=1.0.10=py37ha843d7b_0
+  - mkl_random=1.0.2=py37hd81dba3_0
   - nbconvert=6.0.7=py37_0
   - nbformat=5.1.2=pyhd3eb1b0_1
   - ncurses=6.2=he6710b0_1
   - notebook=6.2.0=py37h06a4308_0
   - numba=0.51.2=py37h04863e7_1
-  - numpy-base=1.19.2=py37h75fe3a5_0
+    #  - numpy-base=1.16.4=py37hde5b4d6_0
   - olefile=0.46=py37_0
   - openssl=1.1.1i=h27cfd23_0
   - packaging=20.9=pyhd3eb1b0_0
@@ -94,7 +96,7 @@ dependencies:
   - qtpy=1.9.0=py_0
   - readline=8.1=h27cfd23_0
   - scikit-learn=0.23.2=py37h0573a6f_0
-  - scipy=1.6.0=py37hf56f3a7_0
+  - scipy=1.2.1=py37h7c811a0_0
   - send2trash=1.5.0=pyhd3eb1b0_1
   - setuptools=52.0.0=py37h06a4308_0
   - sip=4.19.8=py37hf484d3e_0
@@ -116,11 +118,9 @@ dependencies:
   - zstd=1.4.5=h9ceee32_0
   - pip:
     - bcrypt==3.2.0
-    - cached-property==1.5.2
     - chardet==4.0.0
     - cryptography==3.4.4
     - entrypoints==0.3
-    - h5py==3.1.0
     - hdmf==2.3.0
     - idna==2.10
     - importlib-metadata==3.4.0
@@ -153,4 +153,6 @@ dependencies:
     - typing-extensions==3.7.4.3
     - urllib3==1.26.3
     - webencodings==0.5.1
+    - git+git://github.com/MouseLand/suite2p.git"
 prefix: /home/rig43/anaconda3/envs/dope2p
+

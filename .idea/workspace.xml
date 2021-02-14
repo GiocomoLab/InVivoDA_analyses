@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e01aaf17-b2b3-4286-b19a-792f16452fcb" name="Default Changelist" comment="change nimg_init for multisession alignment">
+    <list default="true" id="e01aaf17-b2b3-4286-b19a-792f16452fcb" name="Default Changelist" comment="turn off force registration, change nbinned to default">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions_GRABDA7.py" beforeDir="false" afterPath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions_GRABDA7.py" afterDir="false" />
     </list>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613262163104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="turn off force registration, change nbinned to default">
+      <created>1613281865071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613281865071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,13 +118,14 @@
     <MESSAGE value="add alignmultiplesessions file for GRABDA7" />
     <MESSAGE value="ops references in AlignMultipleSessions_GRABDA7.py" />
     <MESSAGE value="change nimg_init for multisession alignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="change nimg_init for multisession alignment" />
+    <MESSAGE value="turn off force registration, change nbinned to default" />
+    <option name="LAST_COMMIT_MESSAGE" value="turn off force registration, change nbinned to default" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2" timestamp="1613262165830">
+    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2" timestamp="1613281869534">
       <screen x="-3840" y="0" width="2194" height="1234" />
     </state>
-    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2/0.0.1536.864/-3840.0.2194.1234@-3840.0.2194.1234" timestamp="1613262165830" />
+    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2/0.0.1536.864/-3840.0.2194.1234@-3840.0.2194.1234" timestamp="1613281869534" />
     <state x="-2965" y="512" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613260679267">
       <screen x="-3840" y="0" width="2194" height="1234" />
     </state>

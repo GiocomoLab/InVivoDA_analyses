@@ -120,7 +120,7 @@ if __name__=="__main__":
                     'save_folder': "suite2p",
                     'save_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0'),
                     'ops_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0', 'ops.npy'),
-                    'do_registration': 1,
+                    'do_registration': 0,
                     'two_step_registration': True,
                     'nimg_init': 2000,
                     'align_by_chan': 2,

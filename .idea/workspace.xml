@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e01aaf17-b2b3-4286-b19a-792f16452fcb" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions_GRABDA7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e01aaf17-b2b3-4286-b19a-792f16452fcb" name="Default Changelist" comment="add alignmultiplesessions file for GRABDA7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions_GRABDA7.py" beforeDir="false" afterPath="$PROJECT_DIR$/InVivoDA_analyses/AlignMultipleSessions_GRABDA7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607678662620</updated>
     </task>
+    <task id="LOCAL-00001" summary="add alignmultiplesessions file for GRABDA7">
+      <created>1613260968951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613260968951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +87,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="add alignmultiplesessions file for GRABDA7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add alignmultiplesessions file for GRABDA7" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2" timestamp="1613260972851">
+      <screen x="-3840" y="0" width="2194" height="1234" />
+    </state>
+    <state x="-3250" y="285" key="Vcs.Push.Dialog.v2/0.0.1536.864/-3840.0.2194.1234@-3840.0.2194.1234" timestamp="1613260972851" />
+    <state x="-2965" y="512" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613260679267">
+      <screen x="-3840" y="0" width="2194" height="1234" />
+    </state>
+    <state x="-2965" y="512" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/-3840.0.2194.1234@-3840.0.2194.1234" timestamp="1613260679267" />
   </component>
 </project>

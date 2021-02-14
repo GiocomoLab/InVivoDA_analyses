@@ -110,8 +110,8 @@ if __name__=="__main__":
     else:
         pass
 
-    data_bin = s2p.io.BinaryFile(ops['Ly'], ops['Lx'], data_bin_path)
-    data2_bin = s2p.io.BinaryFile(ops['Ly'], ops['Lx'], data2_bin_path)
+    data_bin = s2p.io.BinaryFile(sessions[1].s2p_ops['Ly'], sessions[1].s2p_ops['Lx'], data_bin_path)
+    data2_bin = s2p.io.BinaryFile(sessions[1].s2p_ops['Ly'], sessions[1].s2p_ops['Lx'], data2_bin_path)
 
     combined_ops = {'data_path': [],
                     'reg_file': data_bin_path,

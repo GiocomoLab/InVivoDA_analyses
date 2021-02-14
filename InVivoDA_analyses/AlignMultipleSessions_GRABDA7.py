@@ -122,7 +122,7 @@ if __name__=="__main__":
                     'ops_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0', 'ops.npy'),
                     'do_registration': 2,
                     'two_step_registration': True,
-                    'nimg_init': 10000,
+                    'nimg_init': 5000,
                     'align_by_chan': 2,
                     'block_size': [64, 64],
                     'maxregshiftNR': 10,

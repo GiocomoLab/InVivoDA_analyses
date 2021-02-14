@@ -120,7 +120,7 @@ if __name__=="__main__":
                     'save_folder': "suite2p",
                     'save_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0'),
                     'ops_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0', 'ops.npy'),
-                    'do_registration': 2,
+                    'do_registration': 1,
                     'two_step_registration': True,
                     'nimg_init': 2000,
                     'align_by_chan': 2,
@@ -141,7 +141,7 @@ if __name__=="__main__":
                     'Lx': data_bin.shape[2],
                     'xrange': [50, 462],
                     'yrange': [50, 745],
-                    'nbinned': 10000,
+                    'nbinned': 5000,
                     'meanImg': data_bin.sampled_mean(),
                     'meanImag_chan2': data2_bin.sampled_mean(),
                     }

@@ -120,10 +120,11 @@ if __name__=="__main__":
                     'save_folder': "suite2p",
                     'save_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0'),
                     'ops_path': os.path.join(base_folder, mouse, 'all', 'suite2p', 'plane0', 'ops.npy'),
-                    'do_registration': 0,
+                    'do_registration': 2,
                     'two_step_registration': True,
                     'nimg_init': 2000,
                     'align_by_chan': 2,
+		    'nonrigid': False,
                     'block_size': [64, 64],
                     'maxregshiftNR': 10,
                     'nchannels': 2,
@@ -134,7 +135,7 @@ if __name__=="__main__":
                     'input_format': "h5",
                     'h5py_key': 'data',
                     'sparse_mode': True,
-                    'threshold_scaling': 1.,
+                    'threshold_scaling': .75,
                     'nchannels': 2,
                     'nframes': data_bin.n_frames,
                     'Ly': data_bin.shape[1],
@@ -143,7 +144,7 @@ if __name__=="__main__":
                     'xrange': [50, 745],
                     'nbinned': 5000,
                     'meanImg': data_bin.sampled_mean(),
-                    'meanImag_chan2': data2_bin.sampled_mean(),
+                    'meanImg_chan2': data2_bin.sampled_mean(),
                     }
 
     ops = {**s2p.default_ops(), **combined_ops}

@@ -24,6 +24,6 @@ dependencies:
   - mkl=2019.3
   - pip:
       - "--editable=git+https://github.com/GiocomoLab/TwoPUtils"
-
+      - -e .
 
 

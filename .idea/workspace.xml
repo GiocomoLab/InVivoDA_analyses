@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e01aaf17-b2b3-4286-b19a-792f16452fcb" name="Default Changelist" comment="turn off force registration, change nbinned to default">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabMeeting_02_16_21/PlotPrelimMultiSession.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615515102991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testing environment.yml">
+      <created>1615518651810</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615518651810</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testing environment.yml">
+      <created>1615518863076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615518863076</updated>
+    </task>
+    <task id="LOCAL-00009" summary="testing environment.yml">
+      <created>1615518934990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615518934990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
